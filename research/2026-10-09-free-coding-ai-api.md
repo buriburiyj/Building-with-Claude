@@ -34,3 +34,24 @@
 [9] https://console.groq.com/docs/rate-limits (확인일: 2026-10-09, 공식)
 [10] https://console.groq.com/docs/models (확인일: 2026-10-09, 공식)
 [11] https://console.groq.com/docs/your-data (확인일: 2026-10-09, 공식)
+
+## 업데이트 (2026-10-09)
+미확인 칸이 절반 이상이라 추가 검색 후 보강. 변경점만 기록.
+
+- **NVIDIA ① 한도**: 미확인 -> 기본 40 RPM, 가입 시 1,000 크레딧 (서드파티/공식 포럼 사용자 글, 크레딧 폐지설과 충돌, 단일 계열 출처) [12][13]. 연구/테스트 무료, 프로덕션은 AI Enterprise 라이선스 필요 [13]. 한도 상향은 공식적으로 불가 안내 [12].
+- **Mistral ① 한도**: 미확인 -> Experiment(무료): 1 RPS, 500,000 TPM, 월 10억 토큰 (공식 헬프센터 내용을 검색 요약으로 확인; 페이지 직접 fetch는 404, 단일 출처) [14]. ③ 가입: 전화번호 인증 + 학습 데이터 사용 동의 필요 (서드파티) [15].
+- **Groq ① 한도**: 미확인 -> 공식 표의 gpt-oss-120b/20b, qwen3.8-27b: 30 RPM, 1,000 RPD, 8K TPM, 200K TPD. 단 공식 페이지가 "Developer 플랜 기준"이라 명시하므로 무료 플랜 수치는 서드파티 값과 일치하는 것만 확인됨 (서드파티) [9][16]. ③ 카드 불필요 (서드파티) [16]. 정확한 무료 한도는 콘솔 Limits 페이지에서 확인 필요.
+- **Gemini ① 한도**: 미확인 -> 여전히 미확인. 서드파티가 10~15 RPM, 250~1,500 RPD 등으로 서로 충돌 [17]. 공식은 AI Studio 확인을 안내.
+- **Gemini ② 모델 (충돌)**: 공식 가격 페이지(재확인 2026-10-09)는 2.5 Pro, 2.5 Flash, 3.x Flash 계열이 무료, 3.1 Pro Preview는 무료 아님 [6]. 서드파티는 "2026-04 Pro 무료 폐지"라고 주장 [17]. **공식 우선**이나 계정별 차이 가능.
+- **OpenRouter ① (확정)**: `:free` 20 RPM, 일 50회 / 누적 구매 10 크레딧 이상이면 일 1,000회. 임계값은 "1 크레딧 낮은 9부터" 적용 (공식) [2].
+
+### 추천 변경 없음 (보강)
+Gemini 유지. 단 한도 수치는 단일 확인 불가. 대안: 공개 코드 한정 Groq(gpt-oss-120b, 일 토큰 200K 제한) 또는 Mistral(월 10억 토큰으로 가장 넉넉하나 학습 동의 필요).
+
+### 추가 출처
+[12] https://forums.developer.nvidia.com/t/request-for-nvidia-nim-api-rate-limit-increase-40-200-rpm-agentic-development-workflow/378941 (확인일: 2026-10-09, 공식 포럼 사용자 글)
+[13] https://forums.developer.nvidia.com/t/api-credits-for-build-nvidia-com/306633 (확인일: 2026-10-09, 공식 포럼)
+[14] https://help.mistral.ai/en/articles/225174-what-are-the-limits-of-the-free-tier (확인일: 2026-10-09, 공식; 검색 요약으로만 확인, fetch 404)
+[15] https://mintlify.com/cheahjs/free-llm-api-resources/providers/free/mistral-plateforme (확인일: 2026-10-09, 서드파티)
+[16] https://benchlm.ai/free-tier/groq , https://community.groq.com/t/is-there-a-free-tier-and-what-are-its-limits/790 (확인일: 2026-10-09, 서드파티)
+[17] https://agentdeals.dev/gemini-api-pricing-changes , https://tinkerllm.com/blog/gemini-api-free-tier-limits-rate-quotas/ (확인일: 2026-10-09, 서드파티)
