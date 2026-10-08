@@ -1,6 +1,7 @@
 # Repo
 - Each project lives in its own subfolder (e.g. my-app/).
 - This repo is public. Never create or write secrets (.env, API keys, tokens, passwords).
+- Browser automation (Playwright) must not save files in this repo; .playwright-mcp/ is gitignored.
 
 # Git
 - Do not run git init, commit, or push. A hook auto-commits and pushes after each response.

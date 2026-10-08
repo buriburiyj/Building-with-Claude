@@ -1,3 +1,0 @@
-[     357ms] [WARNING] setPolicyInfo {versionInfo: Object, sdkInfo: Object, sentryInfo: Object} @ https://ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js:0
-[     603ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://stock.naver.com/api/personal/guest/recent/products:0
-[     603ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://stock.naver.com/api/securityService/rdc2:0
