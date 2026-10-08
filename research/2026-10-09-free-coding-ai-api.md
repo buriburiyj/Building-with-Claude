@@ -55,3 +55,21 @@ Gemini 유지. 단 한도 수치는 단일 확인 불가. 대안: 공개 코드 
 [15] https://mintlify.com/cheahjs/free-llm-api-resources/providers/free/mistral-plateforme (확인일: 2026-10-09, 서드파티)
 [16] https://benchlm.ai/free-tier/groq , https://community.groq.com/t/is-there-a-free-tier-and-what-are-its-limits/790 (확인일: 2026-10-09, 서드파티)
 [17] https://agentdeals.dev/gemini-api-pricing-changes , https://tinkerllm.com/blog/gemini-api-free-tier-limits-rate-quotas/ (확인일: 2026-10-09, 서드파티)
+
+## 업데이트 2 (2026-10-09, Gemini 정정 + 코딩 모델 칸 재확인)
+- **Gemini 모델 정정 (old -> new)**: "2.5 Pro / 2.5 Flash 중심" -> **3.8 Flash가 무료 최선** ("long-horizon software engineering" 설명), 3.7 Flash도 무료 (코딩·에이전트용). 무료 텍스트: 3.8/3.7/3.6/3.5 Flash, 3.5·3.1 Flash-Lite, 3 Flash Preview, Gemma 4 [6][18].
+- **Pro급 (확인 결과)**: 최신 Pro인 `gemini-3.1-pro-preview`는 무료 티어 **Not available** [6]. `gemini-2.5-pro`는 가격 페이지에 무료로 표기되나, 모델 페이지는 2.5 계열을 "limited access(기존 사용자 한정)"로 표기하고 신규 프로젝트에는 3.5 Flash-Lite / 3.8 Flash를 권장 [18]. 즉 **"최신 Pro급은 무료에서 빠짐"**, 2.5 Pro는 신규 계정에서 사용 가능한지 미확인(공식 페이지끼리 표현 불일치).
+- **Gemini 한도**: rate-limits 공식 페이지는 무료 수치를 싣지 않고 "AI Studio에서 확인"만 안내 [5]. 표기: **AI Studio 로그인 후 확인 필요**. (이전 업데이트의 서드파티 수치는 참고 불가로 폐기.)
+- **코딩 모델 칸 (공식 모델 목록 기준)**:
+  - Gemini: gemini-3.8-flash, gemini-3.7-flash (무료) [18]
+  - Groq: 공식 페이지가 코딩 전용 모델을 지정하지 않음. 범용 중 gpt-oss-120b(Production), qwen3.8-27b·minimax-m2.7(Preview) [10]. 무료 여부는 콘솔 Limits 확인 필요.
+  - Mistral: Codestral 25.08(코드 완성), Mistral Medium 3.5(에이전트·코딩), Small 4(코딩 통합). Devstral은 폐기 예정. 무료 티어에서 쓸 수 있는 모델은 미확인 [19].
+  - OpenRouter 무료(`:free`) 코딩용: poolside/laguna-s-2.1, laguna-xs-2.1, cohere/north-mini-code, nvidia/nemotron-3-ultra-550b-a55b [20]. (API 목록 fetch는 `:free` 0건으로 불일치, 컬렉션 페이지 기준 채택, 단일 출처)
+  - NVIDIA: laguna-xs-2.1, nemotron-3-super/ultra, kimi-k3, gemma-4-31b-it 등 코딩·에이전트용 표기 [21]. 무료/프리뷰 라벨은 페이지에 없음, 무료 여부는 위 포럼 근거(서드파티성)만 존재.
+- **추천 재판단**: 바뀐 점은 "Pro급 무료"라는 근거가 사라진 것. 그래도 **Gemini 무료 티어(gemini-3.8-flash)** 유지. 이유: 공식 설명상 코딩 특화 최신 모델이 무료로 확인된 유일한 곳. 단 Pro급 품질이 필요하면 무료로는 불가. 대안은 OpenRouter 무료 Laguna/North Mini Code(일 50회 한계). 한도·학습 사용 정책은 AI Studio에서 확인하고 공개 가능한 코드에만 사용.
+
+### 추가 출처
+[18] https://ai.google.dev/gemini-api/docs/models (확인일: 2026-10-09, 공식)
+[19] https://docs.mistral.ai/getting-started/models/models_overview/ (확인일: 2026-10-09, 공식)
+[20] https://openrouter.ai/collections/free-models (확인일: 2026-10-09, 공식, 단일 출처)
+[21] https://build.nvidia.com/models (확인일: 2026-10-09, 공식)
