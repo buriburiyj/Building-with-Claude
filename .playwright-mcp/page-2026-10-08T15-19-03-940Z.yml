@@ -1,0 +1,701 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - generic [ref=f12e3]:
+      - generic [ref=f12e5]:
+        - banner [ref=f12e6]:
+          - generic [ref=f12e7]:
+            - generic [ref=f12e8]:
+              - generic [ref=f12e9]:
+                - link [ref=f12e10] [cursor=pointer]:
+                  - /url: https://www.naver.com
+                - link [ref=f12e14] [cursor=pointer]:
+                  - /url: https://pay.naver.com
+                - link [ref=f12e18] [cursor=pointer]:
+                  - /url: /
+              - generic [ref=f12e27]:
+                - searchbox "종목명·지수명 입력 (단축키 Alt 또는 Cmd + K)" [ref=f12e31]
+                - generic [aria-hidden]:
+                  - text: 종목명·지수명 입력
+                  - generic: (단축키 +K)
+            - list [ref=f12e32]:
+              - listitem [ref=f12e33]:
+                - link "금융" [ref=f12e34] [cursor=pointer]:
+                  - /url: https://home.pay.naver.com/pc
+              - listitem [ref=f12e43]:
+                - link "포인트" [ref=f12e44] [cursor=pointer]:
+                  - /url: https://point.pay.naver.com/pc/main
+              - listitem [ref=f12e50]:
+                - link "결제" [ref=f12e51] [cursor=pointer]:
+                  - /url: https://pay.naver.com/pc/history
+              - listitem [ref=f12e60]:
+                - link "증권" [ref=f12e61] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f12e67]:
+                - link "부동산" [ref=f12e68] [cursor=pointer]:
+                  - /url: https://fin.land.naver.com/home
+            - generic [ref=f12e79]:
+              - strong [ref=f12e80]: 사용자 링크
+              - list [ref=f12e81]:
+                - listitem [ref=f12e82]:
+                  - link "로그인" [ref=f12e83] [cursor=pointer]:
+                    - /url: https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fstock.naver.com%2Fworldstock%2Fstock%2FAAPL.O%2Fprice
+                - listitem [ref=f12e85]:
+                  - link "서비스 더보기" [ref=f12e86] [cursor=pointer]:
+                    - /url: javascript:;
+        - generic [ref=f12e90]:
+          - generic [ref=f12e92]:
+            - navigation [ref=f12e93]:
+              - list [ref=f12e94]:
+                - listitem [ref=f12e95]:
+                  - link "홈" [ref=f12e96] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=f12e97]:
+                  - link "국내" [ref=f12e98] [cursor=pointer]:
+                    - /url: /market/stock/kr
+                - listitem [ref=f12e99]:
+                  - link "미국 · 글로벌" [ref=f12e100] [cursor=pointer]:
+                    - /url: /market/stock/usa
+                - listitem [ref=f12e101]:
+                  - link "가상자산" [ref=f12e102] [cursor=pointer]:
+                    - /url: /market/crypto
+                - listitem [ref=f12e103]:
+                  - link "시장지표" [ref=f12e104] [cursor=pointer]:
+                    - /url: /market/marketindex
+                - listitem [ref=f12e105]:
+                  - link "토론" [ref=f12e106] [cursor=pointer]:
+                    - /url: /discussion
+                - listitem [ref=f12e107]:
+                  - link "뉴스" [ref=f12e108] [cursor=pointer]:
+                    - /url: /news
+                - listitem [ref=f12e109]:
+                  - link "리서치" [ref=f12e110] [cursor=pointer]:
+                    - /url: /research
+                - listitem [ref=f12e111]:
+                  - link "MY" [ref=f12e112] [cursor=pointer]:
+                    - /url: /my/favorite
+            - generic [ref=f12e113]:
+              - button "새로운 증권 안내" [ref=f12e114]
+              - generic [ref=f12e120]:
+                - link "공지" [ref=f12e122] [cursor=pointer]:
+                  - /url: /notice
+                - list [ref=f12e125]:
+                  - listitem [ref=f12e126]:
+                    - link "한국거래소(KRX) 주식 거래시간 오후 8시까지 확대!" [ref=f12e127] [cursor=pointer]:
+                      - /url: /notice/153
+          - main [ref=f12e128]:
+            - generic [ref=f12e130]:
+              - link "미국 종목 / 주식" [ref=f12e132] [cursor=pointer]:
+                - /url: /market/stock/usa/stocklist
+              - generic [ref=f12e137]:
+                - paragraph [ref=f12e139]: 정규장
+                - generic [ref=f12e140]:
+                  - button [ref=f12e141]
+                  - button [ref=f12e146]
+              - generic [ref=f12e152]:
+                - img "애플" [ref=f12e155]
+                - generic [ref=f12e156]:
+                  - generic [ref=f12e157]:
+                    - generic [ref=f12e158]: AAPL
+                    - generic [ref=f12e159]: 나스닥
+                    - generic [ref=f12e160]: 전화 및 소형 장치
+                  - heading "애플" [level=1] [ref=f12e162]
+                  - generic [ref=f12e163]:
+                    - generic [ref=f12e164]:
+                      - generic [ref=f12e165]: "337.40"
+                      - generic [ref=f12e166]: USD
+                    - generic [ref=f12e167]: 453,297원
+                  - generic [ref=f12e168]:
+                    - generic [ref=f12e169]: "0.73"
+                    - generic [ref=f12e173]: (+0.22%)
+                  - generic [ref=f12e174]:
+                    - generic [ref=f12e175]:
+                      - generic [ref=f12e176]: 미국 10. 08. 11:19
+                      - generic [ref=f12e177]: 실시간
+                      - generic [ref=f12e183] [cursor=pointer]
+                    - generic [ref=f12e187]: 한국 10. 09. 00:19
+              - generic [ref=f12e190]:
+                - heading "시세정보" [level=2] [ref=f12e193]
+                - generic [ref=f12e194]: "단위: USD"
+                - generic [ref=f12e195]:
+                  - strong [ref=f12e199]: "337.40"
+                  - generic [ref=f12e200]:
+                    - generic [ref=f12e201]:
+                      - generic [ref=f12e202]: 52주 최저
+                      - generic [ref=f12e203]: "243.42"
+                    - generic [ref=f12e204]:
+                      - generic [ref=f12e205]: 52주 최고
+                      - generic [ref=f12e206]: "345.34"
+                - list [ref=f12e208]:
+                  - listitem [ref=f12e209]:
+                    - strong [ref=f12e210]: 전일
+                    - generic [ref=f12e211]: "336.67"
+                  - listitem [ref=f12e212]:
+                    - strong [ref=f12e213]: 시가
+                    - generic [ref=f12e214]: "336.89"
+                  - listitem [ref=f12e215]:
+                    - strong [ref=f12e216]: 고가
+                    - generic [ref=f12e217]: "338.34"
+                  - listitem [ref=f12e218]:
+                    - strong [ref=f12e219]: 저가
+                    - generic [ref=f12e220]: "335.90"
+                  - listitem [ref=f12e221]:
+                    - strong [ref=f12e222]: 거래량
+                    - generic [ref=f12e223]: 6,501,721
+                  - listitem [ref=f12e224]:
+                    - strong [ref=f12e225]: 대금
+                    - generic [ref=f12e226]: 21.9억 USD
+              - generic [ref=f12e227]:
+                - heading "투자정보" [level=2] [ref=f12e230]
+                - list [ref=f12e232]:
+                  - listitem [ref=f12e233]:
+                    - strong [ref=f12e234]: 시총
+                    - generic [ref=f12e235]:
+                      - text: 4조 9,241억 USD
+                      - generic [ref=f12e236]: 6,615조 9,890억원
+                  - listitem [ref=f12e237]:
+                    - strong [ref=f12e238]:
+                      - text: PER
+                      - generic [ref=f12e239]: 2026.06.
+                    - generic [ref=f12e240]: 38.82배
+                  - listitem [ref=f12e241]:
+                    - strong [ref=f12e242]:
+                      - text: EPS
+                      - generic [ref=f12e243]: 2026.06.
+                    - generic [ref=f12e244]: "8.69"
+                  - listitem [ref=f12e245]:
+                    - strong [ref=f12e246]:
+                      - text: PBR
+                      - generic [ref=f12e247]: 2026.06.
+                    - generic [ref=f12e248]: 45.84배
+                  - listitem [ref=f12e249]:
+                    - strong [ref=f12e250]:
+                      - text: BPS
+                      - generic [ref=f12e251]: 2026.06.
+                    - generic [ref=f12e252]: "7.36"
+                  - listitem [ref=f12e253]:
+                    - strong [ref=f12e254]:
+                      - text: 주당배당금
+                      - generic [ref=f12e255]: 2026.08.
+                    - generic [ref=f12e256]: "1.08"
+                  - listitem [ref=f12e257]:
+                    - strong [ref=f12e258]:
+                      - text: 배당수익률
+                      - generic [ref=f12e259]: 2026.08.
+                    - generic [ref=f12e260]: 0.32%
+                  - listitem [ref=f12e261]:
+                    - strong [ref=f12e262]: 배당일
+                    - generic [ref=f12e263]: 2026. 08. 13.
+                  - listitem [ref=f12e264]:
+                    - strong [ref=f12e265]: 배당락일
+                    - generic [ref=f12e266]: 2026. 08. 10.
+                  - listitem [ref=f12e267]:
+                    - strong [ref=f12e268]:
+                      - text: 액면변경
+                      - generic [ref=f12e269]: 2020.08.31.
+                    - generic [ref=f12e270]: 1:4 분할
+                  - listitem [ref=f12e271]:
+                    - strong [ref=f12e272]: 액면가
+                    - generic [ref=f12e273]: N/A
+                - paragraph [ref=f12e274]:
+                  - text: 데이터 유의사항 안내
+                  - generic [ref=f12e276] [cursor=pointer]
+              - generic [ref=f12e280]:
+                - heading "컨센서스" [level=2] [ref=f12e283]
+                - generic [ref=f12e284]:
+                  - generic [aria-hidden] [ref=f12e285]:
+                    - emphasis [ref=f12e286]
+                    - emphasis [ref=f12e287]: 적극매도
+                  - generic [aria-hidden] [ref=f12e288]:
+                    - emphasis [ref=f12e289]
+                    - emphasis [ref=f12e290]: 매도
+                  - generic [aria-hidden] [ref=f12e291]:
+                    - emphasis [ref=f12e292]
+                    - emphasis [ref=f12e293]: 중립
+                  - generic [aria-hidden] [ref=f12e294]:
+                    - text: "3.70"
+                    - emphasis [ref=f12e295]
+                    - emphasis [ref=f12e296]: 매수
+                  - generic [aria-hidden] [ref=f12e297]:
+                    - emphasis [ref=f12e298]
+                    - emphasis [ref=f12e299]: 적극매수
+                - generic [ref=f12e300]:
+                  - generic [ref=f12e301]:
+                    - strong [ref=f12e302]: 목표주가
+                    - emphasis [ref=f12e303]: 324.89 USD
+                  - generic [ref=f12e304]:
+                    - strong [ref=f12e305]: 목표가범위
+                    - generic [ref=f12e306]: 215.00 ~ 405.00
+                  - list [ref=f12e310]:
+                    - listitem [ref=f12e311]: 전 세계 1200개 리서치 회사의 정보를 종합적으로 분석합니다.
+                    - listitem [ref=f12e312]: 2026. 10. 1. 기준・레피니티브 제공
+            - generic [ref=f12e317]:
+              - generic [ref=f12e320]:
+                - link "차트·시세" [ref=f12e321] [cursor=pointer]:
+                  - /url: /worldstock/stock/AAPL.O/price
+                - link [ref=f12e322] [cursor=pointer]:
+                  - /url: /worldstock/stock/AAPL.O/discussion
+                - link "종목분석" [ref=f12e326] [cursor=pointer]:
+                  - /url: /worldstock/stock/AAPL.O/finance
+                - link "뉴스" [ref=f12e327] [cursor=pointer]:
+                  - /url: /worldstock/stock/AAPL.O/worldnews
+                - link "인사이트" [ref=f12e328] [cursor=pointer]:
+                  - /url: /worldstock/stock/AAPL.O/investmentinfo
+              - generic [ref=f12e329]:
+                - generic [ref=f12e332]:
+                  - generic [ref=f12e333]:
+                    - generic [ref=f12e336]:
+                      - generic [ref=f12e338]:
+                        - generic [ref=f12e339] [cursor=pointer]:
+                          - generic [ref=f12e340]: 30분
+                          - generic:
+                            - generic: 1분
+                            - generic: 3분
+                            - generic: 5분
+                            - generic: 10분
+                            - generic: 30분
+                            - generic: 1시간
+                        - generic [ref=f12e342]:
+                          - generic [ref=f12e343] [cursor=pointer]: 일
+                          - generic [ref=f12e344] [cursor=pointer]: 주
+                          - generic [ref=f12e345] [cursor=pointer]: 월
+                          - generic [ref=f12e346] [cursor=pointer]: 년
+                      - generic [ref=f12e350]:
+                        - textbox "종목 비교" [ref=f12e353]
+                        - button [ref=f12e354] [cursor=pointer]
+                      - generic [ref=f12e355]:
+                        - button "보조지표" [ref=f12e357] [cursor=pointer]
+                        - button "그리기" [ref=f12e361] [cursor=pointer]
+                        - button "공시" [ref=f12e364] [cursor=pointer]
+                        - button "인쇄" [ref=f12e367] [cursor=pointer]
+                        - generic [ref=f12e371]:
+                          - generic [ref=f12e372] [cursor=pointer]
+                          - generic:
+                            - generic:
+                              - generic: 캔들
+                              - generic: 투명캔들
+                              - generic: 라인
+                              - generic: 바
+                              - generic: 라인브레이크
+                              - generic: 포인트 앤 피규어
+                              - generic: 렌코
+                              - generic: 영역
+                              - generic: 카기
+                        - generic [ref=f12e375] [cursor=pointer]
+                      - generic [ref=f12e377]:
+                        - generic [ref=f12e379]: 비교 차트
+                        - generic [ref=f12e381]: 보조지표 추가
+                    - generic [ref=f12e384]:
+                      - generic [ref=f12e386]:
+                        - generic [ref=f12e387]: 시
+                        - generic [ref=f12e389]: 고
+                        - generic [ref=f12e391]: 저
+                        - generic [ref=f12e393]: 종
+                      - generic [ref=f12e395]: 거
+                  - generic [ref=f12e400]:
+                    - generic [ref=f12e402]:
+                      - button "Home" [ref=f12e403] [cursor=pointer]
+                      - generic [ref=f12e409]:
+                        - generic [ref=f12e410]: 거래량
+                        - generic [ref=f12e411] [cursor=pointer]
+                      - img "This NaN day candle chart displays price over time for symbol AAPL.O between 2026. 2. 25. and 2026. 10. 7.. The chart also displays volume study." [ref=f12e415]
+                    - generic [ref=f12e416]:
+                      - generic [ref=f12e417]: 조회 기간
+                      - generic [ref=f12e418]:
+                        - button "1일" [ref=f12e419] [cursor=pointer]
+                        - button "5일" [ref=f12e420] [cursor=pointer]
+                        - button "1개월" [ref=f12e421] [cursor=pointer]
+                        - button "3개월" [ref=f12e422] [cursor=pointer]
+                        - button "6개월" [ref=f12e423] [cursor=pointer]
+                        - button "1년" [ref=f12e424] [cursor=pointer]
+                        - button "3년" [ref=f12e425] [cursor=pointer]
+                        - button "5년" [ref=f12e426] [cursor=pointer]
+                        - button "10년" [ref=f12e427] [cursor=pointer]
+                      - generic [ref=f12e428]:
+                        - button "일반" [pressed] [ref=f12e429] [cursor=pointer]
+                        - button "로그" [ref=f12e430] [cursor=pointer]
+                - generic [ref=f12e433]:
+                  - heading "일별 시세" [level=3] [ref=f12e437]
+                  - table "AAPL.O 종목의 일별 시세 정보 테이블." [ref=f12e440]:
+                    - rowgroup [ref=f12e441]:
+                      - row [ref=f12e442]:
+                        - columnheader "날짜" [ref=f12e443]
+                        - columnheader "종가" [ref=f12e445]
+                        - columnheader "전일대비" [ref=f12e447]
+                        - columnheader "등락률" [ref=f12e449]
+                        - columnheader "시가" [ref=f12e451]
+                        - columnheader "고가" [ref=f12e453]
+                        - columnheader "저가" [ref=f12e455]
+                    - rowgroup [ref=f12e457]:
+                      - row [ref=f12e458]:
+                        - cell "2026. 10. 07." [ref=f12e459]
+                        - cell "336.67" [ref=f12e463]
+                        - cell "3.04" [ref=f12e466]
+                        - cell "+0.91%" [ref=f12e473]
+                        - cell "336.96" [ref=f12e476]
+                        - cell "338.67" [ref=f12e479]
+                        - cell "332.78" [ref=f12e482]
+                      - row [ref=f12e485]:
+                        - cell "2026. 10. 06." [ref=f12e486]
+                        - cell "333.63" [ref=f12e490]
+                        - cell "0.74" [ref=f12e493]
+                        - cell "+0.22%" [ref=f12e500]
+                        - cell "332.28" [ref=f12e503]
+                        - cell "334.38" [ref=f12e506]
+                        - cell "330.62" [ref=f12e509]
+                      - row [ref=f12e512]:
+                        - cell "2026. 10. 05." [ref=f12e513]
+                        - cell "332.89" [ref=f12e517]
+                        - cell "0.80" [ref=f12e520]
+                        - cell "-0.24%" [ref=f12e527]
+                        - cell "332.82" [ref=f12e530]
+                        - cell "336.21" [ref=f12e533]
+                        - cell "331.65" [ref=f12e536]
+                      - row [ref=f12e539]:
+                        - cell "2026. 10. 02." [ref=f12e540]
+                        - cell "333.69" [ref=f12e544]
+                        - cell "3.37" [ref=f12e547]
+                        - cell "+1.02%" [ref=f12e554]
+                        - cell "333.26" [ref=f12e557]
+                        - cell "334.54" [ref=f12e560]
+                        - cell "330.61" [ref=f12e563]
+                      - row [ref=f12e566]:
+                        - cell "2026. 10. 01." [ref=f12e567]
+                        - cell "330.32" [ref=f12e571]
+                        - cell "2.70" [ref=f12e574]
+                        - cell "-0.81%" [ref=f12e581]
+                        - cell "330.00" [ref=f12e584]
+                        - cell "332.48" [ref=f12e587]
+                        - cell "325.81" [ref=f12e590]
+                      - row [ref=f12e593]:
+                        - cell "2026. 09. 30." [ref=f12e594]
+                        - cell "333.02" [ref=f12e598]
+                        - cell "3.62" [ref=f12e601]
+                        - cell "+1.10%" [ref=f12e608]
+                        - cell "330.80" [ref=f12e611]
+                        - cell "339.50" [ref=f12e614]
+                        - cell "330.14" [ref=f12e617]
+                      - row [ref=f12e620]:
+                        - cell "2026. 09. 29." [ref=f12e621]
+                        - cell "329.40" [ref=f12e625]
+                        - cell "9.00" [ref=f12e628]
+                        - cell "-2.66%" [ref=f12e635]
+                        - cell "336.97" [ref=f12e638]
+                        - cell "337.09" [ref=f12e641]
+                        - cell "328.70" [ref=f12e644]
+                      - row [ref=f12e647]:
+                        - cell "2026. 09. 28." [ref=f12e648]
+                        - cell "338.40" [ref=f12e652]
+                        - cell "2.67" [ref=f12e655]
+                        - cell "-0.78%" [ref=f12e662]
+                        - cell "340.37" [ref=f12e665]
+                        - cell "342.99" [ref=f12e668]
+                        - cell "338.04" [ref=f12e671]
+                      - row [ref=f12e674]:
+                        - cell "2026. 09. 25." [ref=f12e675]
+                        - cell "341.07" [ref=f12e679]
+                        - cell "5.15" [ref=f12e682]
+                        - cell "+1.53%" [ref=f12e689]
+                        - cell "336.04" [ref=f12e692]
+                        - cell "341.67" [ref=f12e695]
+                        - cell "334.53" [ref=f12e698]
+                      - row [ref=f12e701]:
+                        - cell "2026. 09. 24." [ref=f12e702]
+                        - cell "335.92" [ref=f12e706]
+                        - cell "1.10" [ref=f12e709]
+                        - cell "-0.33%" [ref=f12e716]
+                        - cell "336.72" [ref=f12e719]
+                        - cell "338.91" [ref=f12e722]
+                        - cell "334.30" [ref=f12e725]
+                      - row [ref=f12e728]:
+                        - cell "2026. 09. 23." [ref=f12e729]
+                        - cell "337.02" [ref=f12e733]
+                        - cell "2.73" [ref=f12e736]
+                        - cell "-0.80%" [ref=f12e743]
+                        - cell "341.08" [ref=f12e746]
+                        - cell "341.80" [ref=f12e749]
+                        - cell "335.50" [ref=f12e752]
+                      - row [ref=f12e755]:
+                        - cell "2026. 09. 22." [ref=f12e756]
+                        - cell "339.75" [ref=f12e760]
+                        - cell "0.77" [ref=f12e763]
+                        - cell "+0.23%" [ref=f12e770]
+                        - cell "340.14" [ref=f12e773]
+                        - cell "345.34" [ref=f12e776]
+                        - cell "338.75" [ref=f12e779]
+                      - row [ref=f12e782]:
+                        - cell "2026. 09. 21." [ref=f12e783]
+                        - cell "338.98" [ref=f12e787]
+                        - cell "2.85" [ref=f12e790]
+                        - cell "+0.85%" [ref=f12e797]
+                        - cell "335.28" [ref=f12e800]
+                        - cell "339.64" [ref=f12e803]
+                        - cell "333.05" [ref=f12e806]
+                      - row [ref=f12e809]:
+                        - cell "2026. 09. 18." [ref=f12e810]
+                        - cell "336.13" [ref=f12e814]
+                        - cell "0.87" [ref=f12e817]
+                        - cell "-0.26%" [ref=f12e824]
+                        - cell "337.91" [ref=f12e827]
+                        - cell "338.49" [ref=f12e830]
+                        - cell "332.53" [ref=f12e833]
+                      - row [ref=f12e836]:
+                        - cell "2026. 09. 17." [ref=f12e837]
+                        - cell "337.00" [ref=f12e841]
+                        - cell "4.59" [ref=f12e844]
+                        - cell "+1.38%" [ref=f12e851]
+                        - cell "334.77" [ref=f12e854]
+                        - cell "338.34" [ref=f12e857]
+                        - cell "330.18" [ref=f12e860]
+                      - row [ref=f12e863]:
+                        - cell "2026. 09. 16." [ref=f12e864]
+                        - cell "332.41" [ref=f12e868]
+                        - cell "1.07" [ref=f12e871]
+                        - cell "+0.32%" [ref=f12e878]
+                        - cell "332.53" [ref=f12e881]
+                        - cell "335.48" [ref=f12e884]
+                        - cell "330.70" [ref=f12e887]
+                      - row [ref=f12e890]:
+                        - cell "2026. 09. 15." [ref=f12e891]
+                        - cell "331.34" [ref=f12e895]
+                        - cell "1.74" [ref=f12e898]
+                        - cell "-0.52%" [ref=f12e905]
+                        - cell "330.14" [ref=f12e908]
+                        - cell "331.78" [ref=f12e911]
+                        - cell "328.35" [ref=f12e914]
+                      - row [ref=f12e917]:
+                        - cell "2026. 09. 14." [ref=f12e918]
+                        - cell "333.08" [ref=f12e922]
+                        - cell "0.81" [ref=f12e925]
+                        - cell "+0.24%" [ref=f12e932]
+                        - cell "334.79" [ref=f12e935]
+                        - cell "335.50" [ref=f12e938]
+                        - cell "331.34" [ref=f12e941]
+                      - row [ref=f12e944]:
+                        - cell "2026. 09. 11." [ref=f12e945]
+                        - cell "332.27" [ref=f12e949]
+                        - cell "5.70" [ref=f12e952]
+                        - cell "+1.75%" [ref=f12e959]
+                        - cell "327.45" [ref=f12e962]
+                        - cell "336.22" [ref=f12e965]
+                        - cell "326.30" [ref=f12e968]
+                      - row [ref=f12e971]:
+                        - cell "2026. 09. 10." [ref=f12e972]
+                        - cell "326.57" [ref=f12e976]
+                        - cell "11.23" [ref=f12e979]
+                        - cell "+3.56%" [ref=f12e986]
+                        - cell "316.67" [ref=f12e989]
+                        - cell "326.74" [ref=f12e992]
+                        - cell "316.51" [ref=f12e995]
+          - region "스페이스바 또는 엔터키로 스크롤 일시정지/재생, ESC키로 일시정지" [ref=f12e999]:
+            - generic [ref=f12e1000]:
+              - generic [ref=f12e1001]:
+                - generic [ref=f12e1002]: 코스피
+                - generic [ref=f12e1004]:
+                  - generic [ref=f12e1005]: 6,625.93
+                  - generic [ref=f12e1006]:
+                    - generic [ref=f12e1010]: "177.97"
+                    - generic [ref=f12e1011]: (-2.62%)
+              - generic [ref=f12e1012]:
+                - generic [ref=f12e1013]: 코스닥
+                - generic [ref=f12e1015]:
+                  - generic [ref=f12e1016]: "892.27"
+                  - generic [ref=f12e1017]:
+                    - generic [ref=f12e1021]: "6.16"
+                    - generic [ref=f12e1022]: (-0.69%)
+              - generic [ref=f12e1023]:
+                - generic [ref=f12e1024]: 코스피 200
+                - generic [ref=f12e1026]:
+                  - generic [ref=f12e1027]: 1,044.52
+                  - generic [ref=f12e1028]:
+                    - generic [ref=f12e1032]: "29.11"
+                    - generic [ref=f12e1033]: (-2.71%)
+              - generic [ref=f12e1034]:
+                - generic [ref=f12e1035]: 다우존스
+                - generic [ref=f12e1037]:
+                  - generic [ref=f12e1038]: 50,944.30
+                  - generic [ref=f12e1039]:
+                    - generic [ref=f12e1043]: "235.57"
+                    - generic [ref=f12e1044]: (-0.46%)
+              - generic [ref=f12e1045]:
+                - generic [ref=f12e1046]: S&P 500
+                - generic [ref=f12e1048]:
+                  - generic [ref=f12e1049]: 7,771.97
+                  - generic [ref=f12e1050]:
+                    - generic [ref=f12e1054]: "29.80"
+                    - generic [ref=f12e1055]: (-0.38%)
+              - generic [ref=f12e1056]:
+                - generic [ref=f12e1057]: 미국 USD
+                - generic [ref=f12e1059]:
+                  - generic [ref=f12e1060]: 1,343.50
+                  - generic [ref=f12e1061]:
+                    - generic [ref=f12e1065]: "2.50"
+                    - generic [ref=f12e1066]: (+0.19%)
+              - generic [ref=f12e1067]:
+                - generic [ref=f12e1068]: 나스닥 종합
+                - generic [ref=f12e1070]:
+                  - generic [ref=f12e1071]: 27,396.25
+                  - generic [ref=f12e1072]:
+                    - generic [ref=f12e1076]: "142.44"
+                    - generic [ref=f12e1077]: (-0.52%)
+              - generic [ref=f12e1078]:
+                - generic [ref=f12e1079]: 국제 금
+                - generic [ref=f12e1081]:
+                  - generic [ref=f12e1082]: 4,143.80
+                  - generic [ref=f12e1083]:
+                    - generic [ref=f12e1087]: "3.10"
+                    - generic [ref=f12e1088]: (+0.07%)
+              - generic [ref=f12e1089]:
+                - generic [ref=f12e1090]: WTI
+                - generic [ref=f12e1092]:
+                  - generic [ref=f12e1093]: "93.03"
+                  - generic [ref=f12e1094]:
+                    - generic [ref=f12e1098]: "4.75"
+                    - generic [ref=f12e1099]: (+5.38%)
+            - generic [ref=f12e1100]:
+              - generic [ref=f12e1101]:
+                - generic [ref=f12e1102]: 코스피
+                - generic [ref=f12e1104]:
+                  - generic [ref=f12e1105]: 6,625.93
+                  - generic [ref=f12e1106]:
+                    - generic [ref=f12e1110]: "177.97"
+                    - generic [ref=f12e1111]: (-2.62%)
+              - generic [ref=f12e1112]:
+                - generic [ref=f12e1113]: 코스닥
+                - generic [ref=f12e1115]:
+                  - generic [ref=f12e1116]: "892.27"
+                  - generic [ref=f12e1117]:
+                    - generic [ref=f12e1121]: "6.16"
+                    - generic [ref=f12e1122]: (-0.69%)
+              - generic [ref=f12e1123]:
+                - generic [ref=f12e1124]: 코스피 200
+                - generic [ref=f12e1126]:
+                  - generic [ref=f12e1127]: 1,044.52
+                  - generic [ref=f12e1128]:
+                    - generic [ref=f12e1132]: "29.11"
+                    - generic [ref=f12e1133]: (-2.71%)
+              - generic [ref=f12e1134]:
+                - generic [ref=f12e1135]: 다우존스
+                - generic [ref=f12e1137]:
+                  - generic [ref=f12e1138]: 50,944.30
+                  - generic [ref=f12e1139]:
+                    - generic [ref=f12e1143]: "235.57"
+                    - generic [ref=f12e1144]: (-0.46%)
+              - generic [ref=f12e1145]:
+                - generic [ref=f12e1146]: S&P 500
+                - generic [ref=f12e1148]:
+                  - generic [ref=f12e1149]: 7,771.97
+                  - generic [ref=f12e1150]:
+                    - generic [ref=f12e1154]: "29.80"
+                    - generic [ref=f12e1155]: (-0.38%)
+              - generic [ref=f12e1156]:
+                - generic [ref=f12e1157]: 미국 USD
+                - generic [ref=f12e1159]:
+                  - generic [ref=f12e1160]: 1,343.50
+                  - generic [ref=f12e1161]:
+                    - generic [ref=f12e1165]: "2.50"
+                    - generic [ref=f12e1166]: (+0.19%)
+              - generic [ref=f12e1167]:
+                - generic [ref=f12e1168]: 나스닥 종합
+                - generic [ref=f12e1170]:
+                  - generic [ref=f12e1171]: 27,396.25
+                  - generic [ref=f12e1172]:
+                    - generic [ref=f12e1176]: "142.44"
+                    - generic [ref=f12e1177]: (-0.52%)
+              - generic [ref=f12e1178]:
+                - generic [ref=f12e1179]: 국제 금
+                - generic [ref=f12e1181]:
+                  - generic [ref=f12e1182]: 4,143.80
+                  - generic [ref=f12e1183]:
+                    - generic [ref=f12e1187]: "3.10"
+                    - generic [ref=f12e1188]: (+0.07%)
+              - generic [ref=f12e1189]:
+                - generic [ref=f12e1190]: WTI
+                - generic [ref=f12e1192]:
+                  - generic [ref=f12e1193]: "93.03"
+                  - generic [ref=f12e1194]:
+                    - generic [ref=f12e1198]: "4.75"
+                    - generic [ref=f12e1199]: (+5.38%)
+            - generic [ref=f12e1200]:
+              - generic [ref=f12e1201]:
+                - generic [ref=f12e1202]: 코스피
+                - generic [ref=f12e1204]:
+                  - generic [ref=f12e1205]: 6,625.93
+                  - generic [ref=f12e1206]:
+                    - generic [ref=f12e1210]: "177.97"
+                    - generic [ref=f12e1211]: (-2.62%)
+              - generic [ref=f12e1212]:
+                - generic [ref=f12e1213]: 코스닥
+                - generic [ref=f12e1215]:
+                  - generic [ref=f12e1216]: "892.27"
+                  - generic [ref=f12e1217]:
+                    - generic [ref=f12e1221]: "6.16"
+                    - generic [ref=f12e1222]: (-0.69%)
+              - generic [ref=f12e1223]:
+                - generic [ref=f12e1224]: 코스피 200
+                - generic [ref=f12e1226]:
+                  - generic [ref=f12e1227]: 1,044.52
+                  - generic [ref=f12e1228]:
+                    - generic [ref=f12e1232]: "29.11"
+                    - generic [ref=f12e1233]: (-2.71%)
+              - generic [ref=f12e1234]:
+                - generic [ref=f12e1235]: 다우존스
+                - generic [ref=f12e1237]:
+                  - generic [ref=f12e1238]: 50,944.30
+                  - generic [ref=f12e1239]:
+                    - generic [ref=f12e1243]: "235.57"
+                    - generic [ref=f12e1244]: (-0.46%)
+              - generic [ref=f12e1245]:
+                - generic [ref=f12e1246]: S&P 500
+                - generic [ref=f12e1248]:
+                  - generic [ref=f12e1249]: 7,771.97
+                  - generic [ref=f12e1250]:
+                    - generic [ref=f12e1254]: "29.80"
+                    - generic [ref=f12e1255]: (-0.38%)
+              - generic [ref=f12e1256]:
+                - generic [ref=f12e1257]: 미국 USD
+                - generic [ref=f12e1259]:
+                  - generic [ref=f12e1260]: 1,343.50
+                  - generic [ref=f12e1261]:
+                    - generic [ref=f12e1265]: "2.50"
+                    - generic [ref=f12e1266]: (+0.19%)
+              - generic [ref=f12e1267]:
+                - generic [ref=f12e1268]: 나스닥 종합
+                - generic [ref=f12e1270]:
+                  - generic [ref=f12e1271]: 27,396.25
+                  - generic [ref=f12e1272]:
+                    - generic [ref=f12e1276]: "142.44"
+                    - generic [ref=f12e1277]: (-0.52%)
+              - generic [ref=f12e1278]:
+                - generic [ref=f12e1279]: 국제 금
+                - generic [ref=f12e1281]:
+                  - generic [ref=f12e1282]: 4,143.80
+                  - generic [ref=f12e1283]:
+                    - generic [ref=f12e1287]: "3.10"
+                    - generic [ref=f12e1288]: (+0.07%)
+              - generic [ref=f12e1289]:
+                - generic [ref=f12e1290]: WTI
+                - generic [ref=f12e1292]:
+                  - generic [ref=f12e1293]: "93.03"
+                  - generic [ref=f12e1294]:
+                    - generic [ref=f12e1298]: "4.75"
+                    - generic [ref=f12e1299]: (+5.38%)
+      - complementary "사이드 패널" [ref=f12e1300]:
+        - navigation [ref=f12e1302]:
+          - button [ref=f12e1304]
+          - list [ref=f12e1309]:
+            - listitem [ref=f12e1310]:
+              - button "최근 본" [ref=f12e1311]
+            - listitem [ref=f12e1316]:
+              - button "보유 종목" [ref=f12e1317]
+            - listitem [ref=f12e1322]:
+              - button "관심 종목" [ref=f12e1323]
+            - listitem [ref=f12e1328]:
+              - button "내 피드" [ref=f12e1329]
+            - listitem [ref=f12e1334]:
+              - button "알림" [ref=f12e1335]
+            - listitem [ref=f12e1340]:
+              - button "캘린더" [ref=f12e1341]
+          - button [ref=f12e1350]
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=f12e1355]
