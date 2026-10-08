@@ -52,7 +52,7 @@ path_kb() {
   echo "${s:-0}"
 }
 
-avail_kb() { df -k / | awk 'NR==2 {print $4}'; }
+avail_kb() { df -k /System/Volumes/Data | awk 'NR==2 {print $4}'; }
 
 have() { command -v "$1" >/dev/null 2>&1; }
 
@@ -276,7 +276,7 @@ delete_claudedl() {
 [ "$DRY_RUN" = 1 ] && echo "** dry-run 모드: 아무것도 삭제하지 않습니다 **"
 echo
 echo "== 현재 디스크 상태 =="
-df -h /
+df -h /System/Volumes/Data
 BEFORE_KB=$(avail_kb)
 
 echo
@@ -312,7 +312,7 @@ while read -r kb id; do
     "delete_$id"
     continue
   fi
-  read -r -p "  삭제할까요? [y/N] " ans
+  read -r -p "  삭제할까요? (y/n) " ans < /dev/tty
   case "$ans" in
     y|Y) "delete_$id"; SELECTED_KB=$((SELECTED_KB + kb)) ;;
     *) echo "  건너뜀" ;;
@@ -338,6 +338,8 @@ if [ "$DRY_RUN" = 1 ]; then
   echo "dry-run: 변경 없음"
 else
   AFTER_KB=$(avail_kb)
-  echo "확보한 용량: $(human $((AFTER_KB - BEFORE_KB))) (선택한 항목 추정치 $(human "$SELECTED_KB"))"
+  FREED_KB=$((AFTER_KB - BEFORE_KB))
+  [ "$FREED_KB" -lt 0 ] && FREED_KB=0
+  echo "확보한 용량(실측): $(human "$FREED_KB") / 선택 항목 추정치: $(human "$SELECTED_KB")"
 fi
-df -h /
+df -h /System/Volumes/Data
